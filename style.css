@@ -194,6 +194,9 @@ h1,h2,h3,h4,h5,h6{
 .about_left form textarea{
     width: 100%;
 }
+.contact_right {
+    width: 28%;
+}
 .contact_right h4{
     margin-left: 15px;
 }
@@ -232,6 +235,9 @@ h1,h2,h3,h4,h5,h6{
         width: 750px;
         
     }
+    .contact_right {
+        width: 31%;
+    }
 }
 /* Wide mobile layout:(min-width: 480px) and (max-width: 767px) */
 @media(max-width: 767px){
@@ -245,6 +251,9 @@ h1,h2,h3,h4,h5,h6{
     }
     .single_gallery {
         width: 49%;
+    }
+    .contact_right {
+        width: 100%;
     }
     
 }
@@ -277,6 +286,9 @@ h1,h2,h3,h4,h5,h6{
         margin-bottom: 20px;
     }
     .about_right {
+        width: 100%;
+    }
+    .contact_right {
         width: 100%;
     }
 }
